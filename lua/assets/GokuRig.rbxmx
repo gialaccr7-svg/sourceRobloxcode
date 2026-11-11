@@ -1,0 +1,1215 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Model" referent="RBX125">
+    <Properties>
+      <string name="Name">StarterCharacter</string>
+      <Ref name="PrimaryPart">RBX130</Ref>
+    </Properties>
+    <Item class="Humanoid" referent="RBX126">
+      <Properties>
+        <string name="Name">Humanoid</string>
+        <token name="RigType">1</token>
+        <string name="DisplayName">Goku</string>
+        <float name="Health">100</float>
+        <float name="MaxHealth">100</float>
+        <float name="WalkSpeed">16</float>
+        <float name="JumpPower">50</float>
+        <float name="HipHeight">2</float>
+        <token name="DisplayDistanceType">1</token>
+      </Properties>
+    </Item>
+    <Item class="BodyColors" referent="RBX127">
+      <Properties>
+        <string name="Name">BodyColors</string>
+        <Color3 name="HeadColor3">
+          <R>1.000000</R>
+          <G>0.854902</G>
+          <B>0.725490</B>
+        </Color3>
+        <Color3 name="LeftArmColor3">
+          <R>1.000000</R>
+          <G>0.854902</G>
+          <B>0.725490</B>
+        </Color3>
+        <Color3 name="RightArmColor3">
+          <R>1.000000</R>
+          <G>0.854902</G>
+          <B>0.725490</B>
+        </Color3>
+        <Color3 name="TorsoColor3">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+        <Color3 name="LeftLegColor3">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+        <Color3 name="RightLegColor3">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="Shirt" referent="RBX128">
+      <Properties>
+        <string name="Name">GokuGiShirt</string>
+        <Content name="ShirtTemplate">
+          <url>rbxassetid://144076326</url>
+        </Content>
+      </Properties>
+    </Item>
+    <Item class="Pants" referent="RBX129">
+      <Properties>
+        <string name="Name">GokuGiPants</string>
+        <Content name="PantsTemplate">
+          <url>rbxassetid://144076760</url>
+        </Content>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX130">
+      <Properties>
+        <string name="Name">HumanoidRootPart</string>
+        <Vector3 name="size">
+          <X>2.0</X>
+          <Y>2.0</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>3.0</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">true</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">1</float>
+        <Color3 name="Color">
+          <R>1.000000</R>
+          <G>1.000000</G>
+          <B>1.000000</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX131">
+      <Properties>
+        <string name="Name">LowerTorso</string>
+        <Vector3 name="size">
+          <X>2.0</X>
+          <Y>0.4</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>2.2</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX148">
+        <Properties>
+          <string name="Name">Root</string>
+          <Ref name="Part0">RBX130</Ref>
+          <Ref name="Part1">RBX131</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX132">
+      <Properties>
+        <string name="Name">UpperTorso</string>
+        <Vector3 name="size">
+          <X>2.0</X>
+          <Y>1.6</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>3.2</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX149">
+        <Properties>
+          <string name="Name">Waist</string>
+          <Ref name="Part0">RBX131</Ref>
+          <Ref name="Part1">RBX132</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>0.2</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>-0.8</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX133">
+      <Properties>
+        <string name="Name">Head</string>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>4.6</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">true</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>1.000000</R>
+          <G>0.854902</G>
+          <B>0.725490</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="SpecialMesh" referent="RBX146">
+        <Properties>
+          <string name="Name">Mesh</string>
+          <token name="MeshType">0</token>
+          <Vector3 name="Scale">
+            <X>1.25</X>
+            <Y>1.25</Y>
+            <Z>1.25</Z>
+          </Vector3>
+        </Properties>
+      </Item>
+      <Item class="Decal" referent="RBX147">
+        <Properties>
+          <string name="Name">face</string>
+          <token name="Face">5</token>
+          <Content name="Texture">
+            <url>rbxassetid://221085025</url>
+          </Content>
+        </Properties>
+      </Item>
+      <Item class="Motor6D" referent="RBX150">
+        <Properties>
+          <string name="Name">Neck</string>
+          <Ref name="Part0">RBX132</Ref>
+          <Ref name="Part1">RBX133</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>0.8</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>-0.5</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX134">
+      <Properties>
+        <string name="Name">LeftUpperArm</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>1.17</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.5</X>
+          <Y>3.415</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>1.000000</R>
+          <G>0.854902</G>
+          <B>0.725490</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX151">
+        <Properties>
+          <string name="Name">LeftShoulder</string>
+          <Ref name="Part0">RBX132</Ref>
+          <Ref name="Part1">RBX134</Ref>
+          <CoordinateFrame name="C0">
+            <X>-1.0</X>
+            <Y>0.535</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0.5</X>
+            <Y>0.535</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX135">
+      <Properties>
+        <string name="Name">LeftLowerArm</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>1.05</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.5</X>
+          <Y>2.305</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>1.000000</R>
+          <G>0.854902</G>
+          <B>0.725490</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX153">
+        <Properties>
+          <string name="Name">LeftElbow</string>
+          <Ref name="Part0">RBX134</Ref>
+          <Ref name="Part1">RBX135</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>-0.585</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0.525</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX136">
+      <Properties>
+        <string name="Name">LeftHand</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>0.53</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-1.5</X>
+          <Y>1.515</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>1.000000</R>
+          <G>0.854902</G>
+          <B>0.725490</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX155">
+        <Properties>
+          <string name="Name">LeftWrist</string>
+          <Ref name="Part0">RBX135</Ref>
+          <Ref name="Part1">RBX136</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>-0.525</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0.265</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX137">
+      <Properties>
+        <string name="Name">RightUpperArm</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>1.17</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.5</X>
+          <Y>3.415</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>1.000000</R>
+          <G>0.854902</G>
+          <B>0.725490</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX152">
+        <Properties>
+          <string name="Name">RightShoulder</string>
+          <Ref name="Part0">RBX132</Ref>
+          <Ref name="Part1">RBX137</Ref>
+          <CoordinateFrame name="C0">
+            <X>1.0</X>
+            <Y>0.535</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>-0.5</X>
+            <Y>0.535</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX138">
+      <Properties>
+        <string name="Name">RightLowerArm</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>1.05</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.5</X>
+          <Y>2.305</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>1.000000</R>
+          <G>0.854902</G>
+          <B>0.725490</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX154">
+        <Properties>
+          <string name="Name">RightElbow</string>
+          <Ref name="Part0">RBX137</Ref>
+          <Ref name="Part1">RBX138</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>-0.585</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0.525</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX139">
+      <Properties>
+        <string name="Name">RightHand</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>0.53</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>1.5</X>
+          <Y>1.515</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>1.000000</R>
+          <G>0.854902</G>
+          <B>0.725490</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX156">
+        <Properties>
+          <string name="Name">RightWrist</string>
+          <Ref name="Part0">RBX138</Ref>
+          <Ref name="Part1">RBX139</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>-0.525</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0.265</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX140">
+      <Properties>
+        <string name="Name">LeftUpperLeg</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>1.14</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.5</X>
+          <Y>1.43</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX157">
+        <Properties>
+          <string name="Name">LeftHip</string>
+          <Ref name="Part0">RBX131</Ref>
+          <Ref name="Part1">RBX140</Ref>
+          <CoordinateFrame name="C0">
+            <X>-0.5</X>
+            <Y>-0.2</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0.57</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX141">
+      <Properties>
+        <string name="Name">LeftLowerLeg</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>1.19</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.5</X>
+          <Y>0.265</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX159">
+        <Properties>
+          <string name="Name">LeftKnee</string>
+          <Ref name="Part0">RBX140</Ref>
+          <Ref name="Part1">RBX141</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>-0.57</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0.595</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX142">
+      <Properties>
+        <string name="Name">LeftFoot</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>0.44</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>-0.5</X>
+          <Y>-0.55</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX161">
+        <Properties>
+          <string name="Name">LeftAnkle</string>
+          <Ref name="Part0">RBX141</Ref>
+          <Ref name="Part1">RBX142</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>-0.595</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0.22</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX143">
+      <Properties>
+        <string name="Name">RightUpperLeg</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>1.14</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.5</X>
+          <Y>1.43</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX158">
+        <Properties>
+          <string name="Name">RightHip</string>
+          <Ref name="Part0">RBX131</Ref>
+          <Ref name="Part1">RBX143</Ref>
+          <CoordinateFrame name="C0">
+            <X>0.5</X>
+            <Y>-0.2</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0.57</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX144">
+      <Properties>
+        <string name="Name">RightLowerLeg</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>1.19</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.5</X>
+          <Y>0.265</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX160">
+        <Properties>
+          <string name="Name">RightKnee</string>
+          <Ref name="Part0">RBX143</Ref>
+          <Ref name="Part1">RBX144</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>-0.57</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0.595</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Part" referent="RBX145">
+      <Properties>
+        <string name="Name">RightFoot</string>
+        <Vector3 name="size">
+          <X>1.0</X>
+          <Y>0.44</Y>
+          <Z>1.0</Z>
+        </Vector3>
+        <CoordinateFrame name="CFrame">
+          <X>0.5</X>
+          <Y>-0.55</Y>
+          <Z>0</Z>
+          <R00>1.0</R00>
+          <R01>0.0</R01>
+          <R02>0.0</R02>
+          <R10>0.0</R10>
+          <R11>1.0</R11>
+          <R12>0.0</R12>
+          <R20>0.0</R20>
+          <R21>0.0</R21>
+          <R22>1.0</R22>
+        </CoordinateFrame>
+        <bool name="CanCollide">false</bool>
+        <bool name="Anchored">false</bool>
+        <float name="Transparency">0</float>
+        <Color3 name="Color">
+          <R>0.921569</R>
+          <G>0.392157</G>
+          <B>0.078431</B>
+        </Color3>
+        <token name="Material">272</token>
+      </Properties>
+      <Item class="Motor6D" referent="RBX162">
+        <Properties>
+          <string name="Name">RightAnkle</string>
+          <Ref name="Part0">RBX144</Ref>
+          <Ref name="Part1">RBX145</Ref>
+          <CoordinateFrame name="C0">
+            <X>0</X>
+            <Y>-0.595</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+          <CoordinateFrame name="C1">
+            <X>0</X>
+            <Y>0.22</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Accessory" referent="RBX163">
+      <Properties>
+        <string name="Name">GokuHair</string>
+        <token name="AccessoryType">9</token>
+      </Properties>
+      <Item class="Part" referent="RBX164">
+        <Properties>
+          <string name="Name">Handle</string>
+          <Vector3 name="size">
+            <X>1.2</X>
+            <Y>1.2</Y>
+            <Z>1.2</Z>
+          </Vector3>
+          <float name="Transparency">1</float>
+          <bool name="CanCollide">false</bool>
+          <bool name="Massless">true</bool>
+          <CoordinateFrame name="CFrame">
+            <X>0</X>
+            <Y>5.2</Y>
+            <Z>0</Z>
+            <R00>1.0</R00>
+            <R01>0.0</R01>
+            <R02>0.0</R02>
+            <R10>0.0</R10>
+            <R11>1.0</R11>
+            <R12>0.0</R12>
+            <R20>0.0</R20>
+            <R21>0.0</R21>
+            <R22>1.0</R22>
+          </CoordinateFrame>
+        </Properties>
+        <Item class="Attachment" referent="RBX165">
+          <Properties>
+            <string name="Name">HairAttachment</string>
+            <CoordinateFrame name="CFrame">
+              <X>0</X>
+              <Y>0.6</Y>
+              <Z>0</Z>
+              <R00>1.0</R00>
+              <R01>0.0</R01>
+              <R02>0.0</R02>
+              <R10>0.0</R10>
+              <R11>1.0</R11>
+              <R12>0.0</R12>
+              <R20>0.0</R20>
+              <R21>0.0</R21>
+              <R22>1.0</R22>
+            </CoordinateFrame>
+          </Properties>
+        </Item>
+        <Item class="SpecialMesh" referent="RBX166">
+          <Properties>
+            <string name="Name">GokuHairMesh</string>
+            <token name="MeshType">5</token>
+            <Content name="MeshId">
+              <url>rbxassetid://17893462157</url>
+            </Content>
+            <Content name="TextureId">
+              <url>rbxassetid://17893462215</url>
+            </Content>
+            <Vector3 name="Scale">
+              <X>1.05</X>
+              <Y>1.05</Y>
+              <Z>1.05</Z>
+            </Vector3>
+          </Properties>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

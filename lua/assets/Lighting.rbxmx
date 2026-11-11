@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox version="4">
+  <Item class="Lighting" referent="RBX2">
+    <Properties>
+      <string name="Name">Lighting</string>
+      <token name="Technology">4</token>
+      <float name="Brightness">2.4</float>
+      <float name="ClockTime">17.25</float>
+      <float name="GeographicLatitude">41.73</float>
+      <string name="TimeOfDay">17:15:00</string>
+      <Color3 name="OutdoorAmbient">
+        <R>0.450980</R>
+        <G>0.411765</G>
+        <B>0.509804</B>
+      </Color3>
+      <Color3 name="Ambient">
+        <R>0.254902</R>
+        <G>0.227451</G>
+        <B>0.282353</B>
+      </Color3>
+      <Color3 name="ColorShift_Top">
+        <R>1.000000</R>
+        <G>0.894118</G>
+        <B>0.745098</B>
+      </Color3>
+      <Color3 name="ColorShift_Bottom">
+        <R>0.294118</R>
+        <G>0.313725</G>
+        <B>0.372549</B>
+      </Color3>
+      <float name="ExposureCompensation">0.12</float>
+      <bool name="GlobalShadows">true</bool>
+      <float name="ShadowSoftness">0.15</float>
+      <float name="EnvironmentDiffuseScale">1</float>
+      <float name="EnvironmentSpecularScale">1</float>
+    </Properties>
+    <Item class="Atmosphere" referent="RBX12">
+      <Properties>
+        <string name="Name">BattlegroundAtmosphere</string>
+        <float name="Density">0.35</float>
+        <float name="Offset">0.22</float>
+        <float name="Haze">1.85</float>
+        <float name="Glare">0.38</float>
+        <Color3 name="Color">
+          <R>0.882353</R>
+          <G>0.725490</G>
+          <B>0.647059</B>
+        </Color3>
+        <Color3 name="Decay">
+          <R>0.450980</R>
+          <G>0.470588</G>
+          <B>0.607843</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="BloomEffect" referent="RBX13">
+      <Properties>
+        <string name="Name">BattlegroundBloom</string>
+        <float name="Intensity">0.65</float>
+        <float name="Size">26</float>
+        <float name="Threshold">0.88</float>
+      </Properties>
+    </Item>
+    <Item class="ColorCorrectionEffect" referent="RBX14">
+      <Properties>
+        <string name="Name">BattlegroundColorCorrection</string>
+        <float name="Brightness">0.03</float>
+        <float name="Contrast">0.22</float>
+        <float name="Saturation">0.3</float>
+        <Color3 name="TintColor">
+          <R>1.000000</R>
+          <G>0.972549</G>
+          <B>0.941176</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SunRaysEffect" referent="RBX15">
+      <Properties>
+        <string name="Name">BattlegroundSunRays</string>
+        <float name="Intensity">0.22</float>
+        <float name="Spread">0.82</float>
+      </Properties>
+    </Item>
+    <Item class="Sky" referent="RBX16">
+      <Properties>
+        <string name="Name">BattlegroundSky</string>
+        <bool name="CelestialBodiesShown">true</bool>
+        <Content name="SkyboxBk">
+          <url>rbxassetid://12635309703</url>
+        </Content>
+        <Content name="SkyboxDn">
+          <url>rbxassetid://12635311686</url>
+        </Content>
+        <Content name="SkyboxFt">
+          <url>rbxassetid://12635312870</url>
+        </Content>
+        <Content name="SkyboxLf">
+          <url>rbxassetid://12635313718</url>
+        </Content>
+        <Content name="SkyboxRt">
+          <url>rbxassetid://12635315817</url>
+        </Content>
+        <Content name="SkyboxUp">
+          <url>rbxassetid://12635316856</url>
+        </Content>
+        <Content name="SunTextureId">
+          <url>rbxassetid://1345009717</url>
+        </Content>
+        <Content name="MoonTextureId">
+          <url>rbxassetid://1345054856</url>
+        </Content>
+        <float name="SunAngularSize">18</float>
+        <float name="MoonAngularSize">11</float>
+        <int name="StarCount">3000</int>
+      </Properties>
+    </Item>
+  </Item>
+</roblox>

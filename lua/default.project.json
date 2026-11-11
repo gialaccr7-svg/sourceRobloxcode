@@ -1,0 +1,76 @@
+{
+  "name": "RobloxBattlegroundArena",
+  "tree": {
+    "$className": "DataModel",
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterCharacter": {
+        "$path": "assets/GokuRig.rbxmx",
+        "GokuCharacter": {
+          "$path": "src/StarterPlayer/StarterCharacter/GokuCharacter.luau"
+        }
+      },
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$path": "src/ReplicatedStorage",
+      "Remotes": {
+        "$className": "Folder",
+        "CombatEvent": {
+          "$className": "RemoteEvent"
+        },
+        "SkillEvent": {
+          "$className": "RemoteEvent"
+        },
+        "BlockEvent": {
+          "$className": "RemoteEvent"
+        },
+        "DashEvent": {
+          "$className": "RemoteEvent"
+        },
+        "AnimationEvent": {
+          "$className": "RemoteEvent"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService"
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "CombatHUD": {
+        "HUDLayout": {
+          "$path": "src/StarterGui/CombatHUD/HUDLayout.luau"
+        },
+        "HUDController": {
+          "$path": "src/StarterGui/CombatHUD/HUDController.client.luau"
+        },
+        "$className": "ScreenGui",
+        "$properties": {
+          "ResetOnSpawn": false
+        }
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "BattleArena": {
+        "$path": "assets/BattleArena.rbxmx"
+      },
+      "$properties": {
+        "FallenPartsDestroyHeight": -100
+      }
+    },
+    "Lighting": {
+      "$path": "assets/Lighting.rbxmx"
+    }
+  }
+}
